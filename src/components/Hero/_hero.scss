@@ -1,0 +1,76 @@
+.hero {
+
+    height: 100vh;
+    position: relative;
+    color: white;
+
+    &__bg-img {
+        height: 100vh;
+        object-fit: cover;
+
+        &-wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+
+            &::before { // overlay
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                backdrop-filter: blur(17px);
+                background: rgba(0, 0, 0, 0.1);
+
+            }
+
+        }
+    }
+
+    &__content {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); // centers an absolute element
+
+    }
+
+    &__avatar {
+        height: 100%;
+        width: 100%;
+        object-position: center;
+        transform: scale(1.2);
+        object-fit: cover;
+
+
+
+        &-wrapper {
+            height: 18rem;
+            width: 18rem;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+    }
+
+    &__social{
+
+
+        &-wrapper{
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+            gap:2rem;
+        }
+    }
+
+}
