@@ -1,0 +1,43 @@
+.about{
+    background-color: #131516;
+    padding: 10rem 6rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        gap:1rem;
+    }
+
+    &__list-tech{
+        display: grid;
+        grid-template-columns: repeat(2,minmax(14rem,20rem));
+        gap:0px 10px;
+        margin: 20px 0px 0px;
+
+
+        &__item{
+            display: flex;
+            align-items: center;
+
+
+            &::before{
+                content: ">";
+                padding-right: 1rem;
+
+
+            }
+
+        }
+
+        
+        
+    }
+}

@@ -1,7 +1,23 @@
 
 .heading{
 
+    &-primary{
+
+        font-size: 4rem;
+        //text-transform: uppercase;
+        font-weight:400;
+    }
+
     &--name{
         font-size: 3.4rem;
+    }
+}
+
+.paragraph{
+    font-family:'Space Mono', monospace;
+    font-size: 1.6rem;
+
+    &-thin{
+        letter-spacing: 1px;
     }
 }
