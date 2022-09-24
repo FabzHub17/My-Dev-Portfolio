@@ -1,0 +1,22 @@
+.project {
+    padding: 0 1.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 25rem;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+    box-shadow: 0 20px 30px -15px rgba(3, 11, 25, 0.2);
+
+    transition: all ease-in-out .3s;
+
+    &:hover {
+        cursor: pointer;
+        transform: translateY(-1rem);
+        box-shadow: 0 20px 30px -15px rgba(3, 11, 25, 0.7);
+    }
+}
