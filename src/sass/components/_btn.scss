@@ -1,0 +1,25 @@
+.btn{
+
+    &,
+    &:link,
+    &:visited{
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        width: max-content; // for flex elements to adjust the width
+
+        transition: all 0.2s ease-in-out;
+    }
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 .5rem 1rem rgba(0,0,0, 0.1); /* parameters to specify are: x-value, y-value, blur-value, rgb color-value with transparency if needed*/
+    
+       
+      }
+    
+}
