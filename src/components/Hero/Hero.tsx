@@ -1,13 +1,14 @@
 import './_hero.scss';
 import heroBg from '../../assets/hero-bg.jpg'
 import heroAvatar from '../../assets/hero-avatar.jpg'
+import heroBg02 from '../../assets/hero-bg-02.jpg'
 
 function Hero(): JSX.Element {
     return (
         <>
             <section className="hero">
                 <div className="hero__bg-img-wrapper">
-                    <img src={heroBg} alt="hero background" className="hero__bg-img" />
+                    <img src={heroBg02} alt="hero background" className="hero__bg-img" />
                 </div>
                 <div className="hero__content">
                     <div className="hero__avatar-wrapper">
