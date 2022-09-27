@@ -7,24 +7,16 @@ function About() {
         <h1 className="heading heading-primary">About Me</h1>
         <div className="about__content">
           <p className="paragraph paragraph-thin">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex
-            ante, feugiat a laoreet quis, scelerisque eu lectus. Donec
-            sollicitudin scelerisque purus, et auctor ipsum hendrerit nec.
-            Nullam fringilla mi et elit luctus vehicula. Nullam aliquet diam
-            pretium, elementum ligula sit amet, pretium elit. Vivamus tempus
-            suscipit eleifend. Quisque tincidunt
+            Hey there! I'm Fabio and I enjoy making things on the internet and Software
+            in general.I first realized my interest for computer science and software development
+            soon after graduating highschool, when I pondered deeply on the so ever famous question
+            that every teenager has asked him/her self. 'What am I going to do here on after?'.
           </p>
           <p className="paragraph paragraph-thin">
-            efficitur turpis. Fusce sagittis massa at ipsum efficitur sagittis.
-            Curabitur tempor condimentum nunc non scelerisque. Nulla at maximus
-            nisi. Curabitur magna sem, tempus ut vestibulum et, hendrerit et
-            tortor. Nullam facilisis lorem libero, non tincidunt quam mattis ut.
-            Suspendisse vitae imperdiet nunc. Integer accumsan accumsan aliquet.
+           Fast-forward to today.....
           </p>
           <p className="paragraph paragraph-thin">
-            Nullam tristique massa nec sodales mollis. Vivamus eu vestibulum
-            velit, sit amet tincidunt magna. Aenean metus felis, malesuada sed
-            finibus a, molestie placerat nulla.
+            I recently...
           </p>
           <p className="paragraph paragraph-thin">
             Here are a few technologies I've been working with recently:
