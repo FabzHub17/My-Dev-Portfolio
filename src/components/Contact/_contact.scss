@@ -8,6 +8,11 @@
    // background-color: #4a4e69;
     background-color: #1d2d44;
     clip-path: polygon(0 0, 100% 0, 89% 68%, 0 100%);
+    transition: clip-path 1s ease-in-out;
+
+    &:hover{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 11% 69%);
+    }
 
     .btn{
         margin:0 auto;
