@@ -1,0 +1,24 @@
+.link{
+    text-decoration: none;
+    color: inherit;
+
+    &-animate{
+
+        &--1{
+            // background: linear-gradient(60deg, #0984ad 30%, rgb(98, 10, 10) 100%) var(--_p,100%)/200% no-repeat;
+            background: linear-gradient(60deg, #0984ad 50%, rgb(232, 230, 227) 0%) var(--_p,100%)/200% no-repeat;
+            background-clip: text;
+            -webkit-background-clip: text;
+            display: block;
+            color: transparent;
+            transition: .2s ease-in-out;
+
+            &:hover {
+                --_p: 0%;
+            }
+        }
+
+    }
+
+    
+}
