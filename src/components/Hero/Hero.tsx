@@ -15,15 +15,15 @@ function Hero(): JSX.Element {
                         <img src={heroAvatar} alt="avatar" className="hero__avatar" />
                     </div>
                     <div className="hero__name-wrapper">
-                        <span className="hero__name__line"> - </span>
+                        {/* <span className="hero__name__line"> - </span> */}
                         <span className="hero__name heading heading--name"> T.C.Fabio Vitharana</span>
-                        <span className="hero__name__line"> - </span>
+                        {/* <span className="hero__name__line"> - </span> */}
                     </div>
                     <div className="hero__description"> Web Developer / Software Programmer</div>
                     <div className="hero__social-wrapper">
-                        <div className="hero__social">github</div>
-                        <div className="hero__social">gitlab</div>
-                        <div className="hero__social">linkedin</div>
+                    <div className="hero__social"><a href="https://github.com/FabzHub17" target="_blank" className=' link link-animate--1'>Github</a></div>
+                    <div className="hero__social"><a href="https://gitlab.com/fabio17.vitharana" target="_blank" className=' link link-animate--1'>Gitlab</a></div>
+                    <div className="hero__social"><a href="www.linkedin.com/in/fabio-vitharana-788191215" target="_blank" className=' link link-animate--1'>LinkedIn</a></div>
                     </div>
                 </div>
 

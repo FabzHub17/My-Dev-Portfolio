@@ -13,10 +13,14 @@ function About() {
             that every teenager has asked him/her self. 'What am I going to do here on after?'.
           </p>
           <p className="paragraph paragraph-thin">
-           Fast-forward to today.....
+           Fast-forward to today, I'm a software engineering student with a hobby to  make projects that interest me. 
+           I mostly do them for fun but I learn a great deal of stuff every time, even from the simplest work. The ict world is always 
+           changing and evolving, catching up to it is challenging but lucky for me i find it fun!
           </p>
           <p className="paragraph paragraph-thin">
-            I recently...
+            I recently indulged myself in full stack development to get into freelancing work to build up experience and the empty
+            space in my wallet. Object Oriented Programming for Unity game projects and C# applications which I mostly work for university 
+            stuff.
           </p>
           <p className="paragraph paragraph-thin">
             Here are a few technologies I've been working with recently:

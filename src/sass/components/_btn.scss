@@ -1,8 +1,8 @@
-.btn{
+.btn {
 
     &,
     &:link,
-    &:visited{
+    &:visited {
         text-decoration: none;
         text-transform: uppercase;
         padding: 1.5rem 4rem;
@@ -15,11 +15,33 @@
         transition: all 0.2s ease-in-out;
     }
 
-    &:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 .5rem 1rem rgba(0,0,0, 0.1); /* parameters to specify are: x-value, y-value, blur-value, rgb color-value with transparency if needed*/
-    
-       
-      }
-    
+    &-primary {
+        border: 2px solid #fff;
+        background: transparent;
+        color: #fff;
+        transition: all .3s ease-in-out;
+        background: linear-gradient(#fff 0 0) no-repeat;
+        background-size: 0% 100%;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+
+
+
+        &:hover {
+            color: #000;
+            background-size: 100% 100%;
+            transform: translateY(-3px);
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.4);
+        }
+
+        &:active{
+            transform: translateY(0);
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
+
+        }
+
+
+
+    }
+
+
 }

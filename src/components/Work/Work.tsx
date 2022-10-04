@@ -26,6 +26,12 @@ function Work() {
         "Frontend dark theme landing page designed by FrontendMaster",
       url: "https://github.com/FabzHub17/Fylo-page-FrontendMaster",
     },
+    {
+      title: "Flight widget displayer API ",
+      description:
+        "A display of flight data from an departures api",
+      url: "https://gitlab.com/fabio17.vitharana/flight-widget-api",
+    },
   ];
 
 

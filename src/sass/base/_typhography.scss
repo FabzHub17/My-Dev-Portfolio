@@ -1,23 +1,30 @@
+.heading {
 
-.heading{
-
-    &-primary{
+    &-primary {
 
         font-size: 4rem;
         //text-transform: uppercase;
-        font-weight:400;
+        font-weight: 400;
     }
 
-    &--name{
+    &--name {
         font-size: 3.4rem;
+        background: linear-gradient(60deg, #0984ad 30%, rgb(98, 10, 10) 100%) no-repeat;
+        background-clip: text;
+        -webkit-background-clip: text;
+        display: block;
+        color: transparent;
+
     }
 }
 
-.paragraph{
-    font-family:'Space Mono', monospace;
+
+
+.paragraph {
+    font-family: 'Space Mono', monospace;
     font-size: 1.6rem;
 
-    &-thin{
+    &-thin {
         letter-spacing: 1px;
     }
 }
