@@ -11,8 +11,10 @@ function App() {
       <Hero />
       <About />
       <Work />
+      <div className="special-container">
       <Contact />
       <Footer />
+      </div>
     </div>
 
   )

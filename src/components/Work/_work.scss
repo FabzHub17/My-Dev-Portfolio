@@ -1,3 +1,5 @@
+@import './../../sass/breakpoints';
+
 .work{
     padding:10rem 6rem;
     color:#131516;
@@ -6,9 +8,16 @@
     text-align: center;
     gap:5rem;
 
+   
+
+    @include respond(sm){
+        padding:10rem 2rem;
+    }
+
     &__grid{
         display: grid;
-        grid-template-columns: repeat(3,minmax(30rem,1fr));
-        gap:1.5rem;
+        //grid-template-columns: repeat(3,minmax(30rem,1fr));
+        grid-gap:1.5rem;
+        grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
     }
 }
