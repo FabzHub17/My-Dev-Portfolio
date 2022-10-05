@@ -1,0 +1,34 @@
+// MEDIA QUERY MANAGER
+/*
+
+0-640px:        sm (small)
+640-768px:      md (medium)
+768-1280px:     lg (large)
+(1280-1536):    xl (x large)
+
+1536px + :      2xl (2x large)
+
+
+ORDER: Base + typography > general layout + grid > page layout > components
+
+1em = 16px
+*/
+
+
+@mixin respond($breakpoint){
+    @if $breakpoint == sm {
+        @media (max-width: 40em) { @content;} //640px
+    }
+    @if $breakpoint == md {
+        @media (max-width: 48em) { @content;} //768px
+    }
+    @if $breakpoint == lg {
+        @media (max-width: 80em) { @content;}   //1280px
+    } 
+    @if $breakpoint == xl {
+        @media (max-width: 96em) { @content;} //1536px
+    }
+    @if $breakpoint == xl {
+        @media (min-width: 96em) { @content;} //1536px +
+    }
+}
